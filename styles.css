@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+*{margin: 0;
+   padding: 0;
+}
+
+
+.sidebar{
+    background-color:rgb(60, 66, 91);
+    height: 100vh;
+   
+    font-family: "Roboto Slab", serif;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav
+{
+  padding: 30px;
+}
+.sidebar nav li
+{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+     
+}
+.sidebar nav li a
+{
+   text-decoration: none;
+    color: black;
+     
+}
+.main{
+    background-color:rgb(255, 255, 255);
+    width: 90vw;
+}
+.container
+{
+    display:flex;
+}
+.infocontainer
+{
+    background-color: rgb(255, 255, 255);
+    height: 58vh;
+    width:80vw;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+.devInfo
+{
+  display: flex;
+ justify-content:   center;
+  flex-direction: column;
+  font-family: "Source Code Pro", monospace;
+  
+   
+}
+.hello{
+    font-size: 40px;
+}
+.Name{
+    font-size: 50px;
+    font-style: bold ;
+    font-family: "Roboto Slab", serif;
+}
+.About{
+    font-size: 30px;
+}
+.AboutMore
+{
+   font-size:15px;
+   margin-top:15px;
+   font-family: "Roboto Slab", serif;
+}
+.Buttons{
+    margin: 34px;
+ 
+
+}
+.btn
+{
+ padding:5px 14px;
+ border-radius: 22px;
+ color:white;
+ background-color: dodgerblue;
+ font-weight:bold;
+ font-size:14px;
+ margin:0 3 px;
+ cursor: pointer;
+}
+.btn:hover
+{
+    background-color: white;
+    color:dodgerblue
+}
+.btm-sm
+{
+    font-size:10px;
+    padding: 7px 13px;
+    margin:0  88px;
+}
+.devpic img
+{
+    height: 58vh;
+}
+.contactform
+{
+    padding: 0 50px;
+    padding-top : 14px;
+    font-family: "Roboto Slab", serif;
+    margin:5px;
+}
+.contactform h1 
+{
+    font-family: "Source Code Pro", monospace;
+   padding: 12px 0;
+
+}
+.contactform form div{
+    padding: 10px 0;
+    display:flex;
+    flex-direction:column;
+}
+.contactform form div input {
+    width:16vw;
+    border-radius: 5px;
+    margin:6px 0;
+    padding: 3px;
+}
+
+#emailHelp
+{
+    font-size: 12px;
+    color:midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+#form-check{
+    flex-direction: row;
+ 
+}
+#form-ckeck input{
+    width:10px;
+    margin:3px 0;
+    
+}
+.blogItem{
+    margin:20px;
+    
+    font-family: "Source Code Pro", monospace;
+}
+.blogContainer
+{
+    margin: 10px  88px;
+}
+h2
+{
+    font-family: "Roboto Slab", serif;
+
+}
+p
+{
+    margin:20px;
+    
+    font-family: "Source Code Pro", monospace;
+
+}
+.inrto h2{
+    font-family: "Source Code Pro", monospace;
+}
+.intro p {
+    font-family: "Roboto Slab", serif;
+}
+.intro{
+    
+    margin: 10px 88px;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skillItem
+{
+display:flex;
+align-items: center;
+}
+.skill
+{
+    width:265px;
+    height:10px;
+    background-color: red;
+    border: 2px solid black;
+}
+.hundred
+{
+    width: 265px;
+    background-color: rgb(0, 255, 8);
+
+}
+.fiffty
+{
+    width: 125px;
+    background-color: yellow;
+}
+.t5{
+    width: 75px;
+    background-color: red;
+
+}
+.sidebarGo
+{
+    transform:translate(-443px,0px);
+    position: absolute;
+}
+.hamburger
+{
+    position:absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+
+}
+.menu{
+    margin-top: 10px;
+}
+.cross
+{
+    margin-left:120px;
+    margin-top:10px;
+}
+@media (max-width:1300px)
+{
+   *{
+    background-color: rgb(255, 255, 255);
+   }
+   .dev.png
+   {
+    display: none;
+   }
+   /*.sidebar{
+    transform:translate(-443px , 0);
+    position: absolute;
+   }*/
+}
